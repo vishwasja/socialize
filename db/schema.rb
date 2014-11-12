@@ -11,11 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141021083414) do
+ActiveRecord::Schema.define(version: 20141112174923) do
 
   create_table "users", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "fb_id"
   end
 
 end
